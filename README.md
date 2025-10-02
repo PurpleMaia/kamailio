@@ -1,7 +1,7 @@
 ## Purpose
-This project uses AI + LLMs to transform podcasts into searchable transcripts, reports, and Q&A experiences.
-- Goal A (primary): Build a working pipeline for English podcasts → transcription → reports → Q&A.
-- Goal B (stretch): Extend the pipeline for Hawaiian podcasts, including transcription, translation, and bilingual analysis.
+This project uses AI + LLMs to transform real-time audio into searchable transcripts, reports, and Q&A experiences.
+- Goal A (primary): Build a working pipeline for English audio ingestion → transcription → reports → Q&A.
+- Goal B (stretch): Extend the pipeline for Hawaiian audio, including transcription, translation, and bilingual analysis.
 
 ## Key Concepts
 - **ASR (Automatic Speech Recognition):** Converts speech to text (e.g., Whisper).
@@ -12,12 +12,12 @@ This project uses AI + LLMs to transform podcasts into searchable transcripts, r
     - CER (Character Error Rate) – important for Hawaiian because of ʻokina and kahakō.
     - MT Metrics (COMET/BLEU) – evaluate translation quality.
 
-## Deliverables
+## Progression
 1. Data Ingestion & Processing
 2. Transcription Pipeline
 3. Transcript Storage & Indexing
 4. Reporting Features
-      - Generate an auto-summary of each episode.
+      - Generate an auto-summary of each run.
       - Produce chapter markers (topics/themes with timestamps).
       - Extract highlighted quotes and keywords.
       - Deliver example reports for at least 2 English podcasts.
